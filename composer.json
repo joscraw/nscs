@@ -24,12 +24,41 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "secure-http" : false
   },
   "repositories": [
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "modern-tribe/events-calendar-pro",
+        "version": "4.4.30.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "url": "https://theeventscalendar.com/?pu_get_download=1&pu_request_plugin=events-calendar-pro&version=4.4.30.1.6&pu_install_key=e94716f59963c2dc1839e8cd5e19a267c9c4759a",
+          "type": "zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.7.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
+        },
+        "require": {
+          "philippbaschke/acf-pro-installer": "^1.0",
+          "composer/installers": "^1.0"
+        }
+      }
     }
   ],
   "require": {
@@ -39,7 +68,11 @@
     "johnpbloch/wordpress": "4.9.8",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "roots/wp-config": "1.0.0"
+    "roots/wp-config": "1.0.0",
+    "advanced-custom-fields/advanced-custom-fields-pro": "5.7.1",
+    "modern-tribe/events-calendar-pro": "4.4.30.1",
+    "wpackagist-plugin/adminimize": "^1.11",
+    "wpackagist-plugin/the-events-calendar": "4.6.21"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
