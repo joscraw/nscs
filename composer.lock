@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d10f5eb0fb320fd416f4ceeea929b289",
+    "content-hash": "4b9ad51b1f9ff49a2f38262696482eaa",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -194,11 +194,11 @@
         },
         {
             "name": "crm-connector",
-            "version": "v1.1",
+            "version": "v1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joscraw/crm-connector.git",
-                "reference": "2e35be7dafb7d6c8424fbacbfd8dceb981b76a34"
+                "reference": "f7cc946ef6c4dc145fda3bc6102a4ba9e83f5b0d"
             },
             "require": {
                 "algolia/algoliasearch-client-php": "^1.27",
@@ -216,7 +216,7 @@
                 "proprietary"
             ],
             "description": "Plugin For CRM",
-            "time": "2018-09-19T22:41:38+00:00"
+            "time": "2018-09-20T00:57:36+00:00"
         },
         {
             "name": "crm/single-sign-on",
@@ -1243,15 +1243,15 @@
         },
         {
             "name": "wpackagist-plugin/the-events-calendar",
-            "version": "4.6.21",
+            "version": "4.6.22",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/4.6.21"
+                "reference": "tags/4.6.22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.6.21.zip",
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.6.22.zip",
                 "reference": null,
                 "shasum": null
             },
