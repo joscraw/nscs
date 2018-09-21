@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b9ad51b1f9ff49a2f38262696482eaa",
+    "content-hash": "0458d3dc7ffd8e5ae282e38224147383",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -194,11 +194,11 @@
         },
         {
             "name": "crm-connector",
-            "version": "v1.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joscraw/crm-connector.git",
-                "reference": "f7cc946ef6c4dc145fda3bc6102a4ba9e83f5b0d"
+                "reference": "262a0e75ad934874eead17e94f35eb4bc4929ce7"
             },
             "require": {
                 "algolia/algoliasearch-client-php": "^1.27",
@@ -216,11 +216,11 @@
                 "proprietary"
             ],
             "description": "Plugin For CRM",
-            "time": "2018-09-20T00:57:36+00:00"
+            "time": "2018-09-21T04:03:10+00:00"
         },
         {
             "name": "crm/single-sign-on",
-            "version": "v1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joscraw/single-sign-on.git",
@@ -419,7 +419,7 @@
         },
         {
             "name": "honor-society-common-theme",
-            "version": "v1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joscraw/honor-society-common-theme.git",
@@ -1260,6 +1260,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/the-events-calendar/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "3.4.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/3.4.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.4.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-gateway-stripe",
+            "version": "4.1.10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/",
+                "reference": "tags/4.1.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.1.10.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-gateway-stripe/"
         }
     ],
     "packages-dev": [
@@ -1504,11 +1544,33 @@
                 "standards"
             ],
             "time": "2018-07-26T23:47:18+00:00"
+        },
+        {
+            "name": "woocommerce-gateway-stripe",
+            "version": "4.1.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/woocommerce/woocommerce-gateway-stripe.git",
+                "reference": "d329fc2bee2e02be050abb3da318b16e4297864d"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "type": "library",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "Take credit card payments on your store using Stripe.",
+            "homepage": "https://woocommerce.com/products/woocommerce-gateway-stripe/",
+            "time": "2018-09-17T01:16:37+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "crm-connector": 20,
+        "crm/single-sign-on": 20,
+        "honor-society-common-theme": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
