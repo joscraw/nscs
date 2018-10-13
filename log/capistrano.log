@@ -1,0 +1,51 @@
+# Logfile created on 2018-10-09 19:12:16 -0500 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-10-09 19:12:16 -0500 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [137b3c29] Running /usr/bin/env mkdir -p /tmp as root@142.93.23.226
+  INFO [5e4658e0] Finished in 0.808 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-honor_society-staging-joshcrawmer.sh 100.0%
+  INFO [2fc7981d] Running /usr/bin/env chmod 700 /tmp/git-ssh-honor_society-staging-joshcrawmer.sh as root@142.93.23.226
+  INFO [2d09df32] Finished in 0.206 seconds with exit status 0 (successful).
+  INFO [3c943d6e] Running /usr/bin/env git ls-remote https://github.com/joscraw/nscs.git HEAD as root@142.93.23.226
+  INFO [3186bedb] Finished in 0.581 seconds with exit status 0 (successful).
+  INFO [4f259e81] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared /srv/www/honor_society/releases as root@142.93.23.226
+  INFO [58189d1d] Finished in 0.154 seconds with exit status 0 (successful).
+  INFO [6fbbb508] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared/web/app/uploads as root@142.93.23.226
+  INFO [c266cb44] Finished in 0.220 seconds with exit status 0 (successful).
+  INFO [0d76231f] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared as root@142.93.23.226
+  INFO [0d663d98] Finished in 0.204 seconds with exit status 0 (successful).
+ ERROR linked file /srv/www/honor_society/shared/.env does not exist on 142.93.23.226
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-10-13 13:50:47 -0500 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [29d83c3e] Running /usr/bin/env mkdir -p /tmp as root@142.93.23.226
+  INFO [68e8d76b] Finished in 1.205 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-honor_society-staging-joshcrawmer.sh 100.0%
+  INFO [b348905c] Running /usr/bin/env chmod 700 /tmp/git-ssh-honor_society-staging-joshcrawmer.sh as root@142.93.23.226
+  INFO [a888203c] Finished in 0.332 seconds with exit status 0 (successful).
+  INFO [a60546ba] Running /usr/bin/env git ls-remote https://github.com/joscraw/nscs.git HEAD as root@142.93.23.226
+  INFO [ab2d21b6] Finished in 0.707 seconds with exit status 0 (successful).
+  INFO [bba94009] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared /srv/www/honor_society/releases as root@142.93.23.226
+  INFO [bd0cbc30] Finished in 0.218 seconds with exit status 0 (successful).
+  INFO [d4006be3] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared/web/app/uploads as root@142.93.23.226
+  INFO [66392696] Finished in 0.595 seconds with exit status 0 (successful).
+  INFO [4f7081d1] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared as root@142.93.23.226
+  INFO [24bb0026] Finished in 0.317 seconds with exit status 0 (successful).
+ ERROR linked file /srv/www/honor_society/shared/.env does not exist on 142.93.23.226
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-10-13 13:55:03 -0500 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [ff144c7a] Running /usr/bin/env mkdir -p /tmp as root@142.93.23.226
+  INFO [82eb7db1] Finished in 1.174 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-honor_society-staging-joshcrawmer.sh 100.0%
+  INFO [8407d4c8] Running /usr/bin/env chmod 700 /tmp/git-ssh-honor_society-staging-joshcrawmer.sh as root@142.93.23.226
+  INFO [9bfaf49e] Finished in 0.324 seconds with exit status 0 (successful).
+  INFO [1194e751] Running /usr/bin/env git ls-remote https://github.com/joscraw/nscs.git HEAD as root@142.93.23.226
+  INFO [233c5558] Finished in 0.544 seconds with exit status 0 (successful).
+  INFO [3bc34cb2] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared /srv/www/honor_society/releases as root@142.93.23.226
+  INFO [aaa2dab2] Finished in 0.315 seconds with exit status 0 (successful).
+  INFO [55872469] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared/web/app/uploads as root@142.93.23.226
+  INFO [1e9a4587] Finished in 0.329 seconds with exit status 0 (successful).
+  INFO [c9bebf12] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared as root@142.93.23.226
+  INFO [5040c0ba] Finished in 0.318 seconds with exit status 0 (successful).
