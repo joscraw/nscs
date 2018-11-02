@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0458d3dc7ffd8e5ae282e38224147383",
+    "content-hash": "9484a4ed50bcc6e4065b17d3fdb63c27",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -424,7 +424,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/joscraw/honor-society-common-theme.git",
-                "reference": "1e07a9521bfd72da729d12d27f1c356241c89bc6"
+                "reference": "ce7707f77fb7c9a7a6f50e5c1477b7508e3b639b"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -434,7 +434,7 @@
                 "proprietary"
             ],
             "description": "Common Theme for the honor society",
-            "time": "2018-09-21T06:55:23+00:00"
+            "time": "2018-10-17T01:01:01+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -1310,15 +1310,15 @@
         },
         {
             "name": "wpackagist-plugin/the-events-calendar",
-            "version": "4.6.22",
+            "version": "4.6.25",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/the-events-calendar/",
-                "reference": "tags/4.6.22"
+                "reference": "tags/4.6.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.6.22.zip",
+                "url": "https://downloads.wordpress.org/plugin/the-events-calendar.4.6.25.zip",
                 "reference": null,
                 "shasum": null
             },

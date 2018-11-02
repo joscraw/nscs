@@ -90,7 +90,7 @@
     "wpackagist-plugin/capability-manager-enhanced": "^1.5",
     "wpackagist-plugin/cpt-custom-icon": "^1.0",
     "wpackagist-plugin/bulk-delete": "^5.6",
-    "wpackagist-plugin/the-events-calendar": "4.6.22",
+    "wpackagist-plugin/the-events-calendar": "4.6.25",
     "crm-connector": "dev-master",
     "crm/single-sign-on": "dev-master",
     "honor-society-common-theme": "dev-master",
