@@ -225,7 +225,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/joscraw/single-sign-on.git",
-                "reference": "0757882ed2cf8a24392d5e0d99da8c112cd8f623"
+                "reference": "d0e7f070e8976535ebbf6ecb55eb23f2f4c65e09"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -235,7 +235,7 @@
                 "proprietary"
             ],
             "description": "Single Sign On Plugin for WP Sites",
-            "time": "2018-09-19T19:45:15+00:00"
+            "time": "2018-10-16T05:28:50+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -424,7 +424,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/joscraw/honor-society-common-theme.git",
-                "reference": "ce7707f77fb7c9a7a6f50e5c1477b7508e3b639b"
+                "reference": "3114e7d296285bdbb02cdb49891b968c7e1203ac"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -434,7 +434,7 @@
                 "proprietary"
             ],
             "description": "Common Theme for the honor society",
-            "time": "2018-10-17T01:01:01+00:00"
+            "time": "2018-11-01T23:46:42+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
