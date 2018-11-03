@@ -198,7 +198,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/joscraw/crm-connector.git",
-                "reference": "9fd36f9800fc408b4084fba308a86baba884225c"
+                "reference": "70563872fc8720a25c80f8a76ecb66e006063962"
             },
             "require": {
                 "algolia/algoliasearch-client-php": "^1.27",
@@ -217,7 +217,7 @@
                 "proprietary"
             ],
             "description": "Plugin For CRM",
-            "time": "2018-10-02T00:51:45+00:00"
+            "time": "2018-10-30T07:16:47+00:00"
         },
         {
             "name": "crm/single-sign-on",

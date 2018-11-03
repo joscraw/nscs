@@ -328,3 +328,131 @@
   INFO No old releases (keeping newest 5) on 142.93.23.226
   INFO [84b8a41f] Running /usr/bin/env echo "Branch master (at 70708cd9eff6e60004283124dbdd35bf789b176d) deployed as release 20181102000333 by joshcrawmer" >> /srv/www/honor_society/revisions.log as deploy@142.93.23.226
   INFO [abdf93ed] Finished in 0.222 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-01 23:44:05 -0500 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [c5c9a39b] Running /usr/bin/env mkdir -p /tmp as deploy@142.93.23.226
+  INFO [eb16f2b9] Finished in 1.317 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-honor_society-staging-joshcrawmer.sh 100.0%
+  INFO [4eb5964c] Running /usr/bin/env chmod 700 /tmp/git-ssh-honor_society-staging-joshcrawmer.sh as deploy@142.93.23.226
+  INFO [30cfdf50] Finished in 0.344 seconds with exit status 0 (successful).
+  INFO [2230405e] Running /usr/bin/env git ls-remote https://github.com/joscraw/nscs.git HEAD as deploy@142.93.23.226
+  INFO [e7e72b4f] Finished in 0.921 seconds with exit status 0 (successful).
+  INFO [2bef1c30] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared /srv/www/honor_society/releases as deploy@142.93.23.226
+  INFO [4cfb2ab1] Finished in 0.346 seconds with exit status 0 (successful).
+  INFO [bb2b4193] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared/web/app/uploads as deploy@142.93.23.226
+  INFO [87ef30d6] Finished in 0.328 seconds with exit status 0 (successful).
+  INFO [00bae73a] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared as deploy@142.93.23.226
+  INFO [18072a31] Finished in 0.322 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-01 23:44:15 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [19c7900a] Running /usr/bin/env mkdir -p /tmp as deploy@142.93.23.226
+  INFO [0881843e] Finished in 1.392 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-honor_society-staging-joshcrawmer.sh 100.0%
+  INFO [30fb3559] Running /usr/bin/env chmod 700 /tmp/git-ssh-honor_society-staging-joshcrawmer.sh as deploy@142.93.23.226
+  INFO [899145fb] Finished in 0.341 seconds with exit status 0 (successful).
+  INFO [1188a1ec] Running /usr/bin/env git ls-remote https://github.com/joscraw/nscs.git HEAD as deploy@142.93.23.226
+  INFO [f039a21c] Finished in 0.858 seconds with exit status 0 (successful).
+  INFO [bed64099] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared /srv/www/honor_society/releases as deploy@142.93.23.226
+  INFO [9912cee5] Finished in 0.349 seconds with exit status 0 (successful).
+  INFO [c2e8900d] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared/web/app/uploads as deploy@142.93.23.226
+  INFO [e7aee1a9] Finished in 0.358 seconds with exit status 0 (successful).
+  INFO [c37d4853] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared as deploy@142.93.23.226
+  INFO [03b3098a] Finished in 0.361 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /srv/www/honor_society/repo
+  INFO [328756d4] Running /usr/bin/env git remote set-url origin https://github.com/joscraw/nscs.git as deploy@142.93.23.226
+  INFO [b380fd93] Finished in 0.319 seconds with exit status 0 (successful).
+  INFO [81a92edd] Running /usr/bin/env git remote update --prune as deploy@142.93.23.226
+  INFO [6dd9ee8c] Finished in 0.799 seconds with exit status 0 (successful).
+  INFO [7c45acc6] Running /usr/bin/env mkdir -p /srv/www/honor_society/releases/20181102044420 as deploy@142.93.23.226
+  INFO [d7461e5f] Finished in 0.344 seconds with exit status 0 (successful).
+  INFO [a4faec97] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /srv/www/honor_society/releases/20181102044420 as deploy@142.93.23.226
+  INFO [0ed664d2] Finished in 0.559 seconds with exit status 0 (successful).
+  INFO [94574d20] Running /usr/bin/env echo "7ee3f0a7252e9e7637ef5ea1946ebfa2311cf843" > REVISION as deploy@142.93.23.226
+  INFO [16f55961] Finished in 0.319 seconds with exit status 0 (successful).
+  INFO [a9e7ac4c] Running /usr/bin/env mkdir -p /srv/www/honor_society/releases/20181102044420 as deploy@142.93.23.226
+  INFO [7b0eb8b9] Finished in 0.342 seconds with exit status 0 (successful).
+  INFO [731d1d26] Running /usr/bin/env ln -s /srv/www/honor_society/shared/.env /srv/www/honor_society/releases/20181102044420/.env as deploy@142.93.23.226
+  INFO [591bc507] Finished in 0.331 seconds with exit status 0 (successful).
+  INFO [31857507] Running /usr/bin/env mkdir -p /srv/www/honor_society/releases/20181102044420/web/app as deploy@142.93.23.226
+  INFO [6672805f] Finished in 0.329 seconds with exit status 0 (successful).
+  INFO [b1b8f848] Running /usr/bin/env rm -rf /srv/www/honor_society/releases/20181102044420/web/app/uploads as deploy@142.93.23.226
+  INFO [8e5e2818] Finished in 0.354 seconds with exit status 0 (successful).
+  INFO [56f7e47f] Running /usr/bin/env ln -s /srv/www/honor_society/shared/web/app/uploads /srv/www/honor_society/releases/20181102044420/web/app/uploads as deploy@142.93.23.226
+  INFO [d1368e1f] Finished in 0.353 seconds with exit status 0 (successful).
+  INFO [b6ea3b92] Running /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as deploy@142.93.23.226
+  INFO [55a88542] Finished in 5.461 seconds with exit status 0 (successful).
+  INFO [26d69dbf] Running /usr/bin/env ln -s /srv/www/honor_society/releases/20181102044420 /srv/www/honor_society/releases/current as deploy@142.93.23.226
+  INFO [aa239d81] Finished in 0.353 seconds with exit status 0 (successful).
+  INFO [e0570d10] Running /usr/bin/env mv /srv/www/honor_society/releases/current /srv/www/honor_society as deploy@142.93.23.226
+  INFO [17ea93f9] Finished in 0.355 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on 142.93.23.226
+  INFO [33f404ea] Running /usr/bin/env rm -rf /srv/www/honor_society/releases/20181013185801 as deploy@142.93.23.226
+  INFO [abe64afd] Finished in 0.485 seconds with exit status 0 (successful).
+  INFO [4ab52d44] Running /usr/bin/env echo "Branch master (at 7ee3f0a7252e9e7637ef5ea1946ebfa2311cf843) deployed as release 20181102044420 by joshcrawmer" >> /srv/www/honor_society/revisions.log as deploy@142.93.23.226
+  INFO [045b6c32] Finished in 0.329 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-02 00:46:35 -0500 cap staging deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [9a28ff4e] Running /usr/bin/env mkdir -p /tmp as deploy@142.93.23.226
+  INFO [6994e00d] Finished in 1.691 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-honor_society-staging-joshcrawmer.sh 100.0%
+  INFO [b08c8ea4] Running /usr/bin/env chmod 700 /tmp/git-ssh-honor_society-staging-joshcrawmer.sh as deploy@142.93.23.226
+  INFO [21e76de6] Finished in 0.366 seconds with exit status 0 (successful).
+  INFO [4415fc67] Running /usr/bin/env git ls-remote https://github.com/joscraw/nscs.git HEAD as deploy@142.93.23.226
+  INFO [69c09d96] Finished in 0.890 seconds with exit status 0 (successful).
+  INFO [03b7bc5b] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared /srv/www/honor_society/releases as deploy@142.93.23.226
+  INFO [1d39865b] Finished in 0.363 seconds with exit status 0 (successful).
+  INFO [e0500629] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared/web/app/uploads as deploy@142.93.23.226
+  INFO [cb13adb8] Finished in 0.376 seconds with exit status 0 (successful).
+  INFO [b3998431] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared as deploy@142.93.23.226
+  INFO [ac322ba9] Finished in 0.412 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-11-02 00:46:44 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6184bf95] Running /usr/bin/env mkdir -p /tmp as deploy@142.93.23.226
+  INFO [e09b2f2c] Finished in 1.657 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-honor_society-staging-joshcrawmer.sh 100.0%
+  INFO [b9a2a1e2] Running /usr/bin/env chmod 700 /tmp/git-ssh-honor_society-staging-joshcrawmer.sh as deploy@142.93.23.226
+  INFO [8f3c42b7] Finished in 0.367 seconds with exit status 0 (successful).
+  INFO [a80de5ab] Running /usr/bin/env git ls-remote https://github.com/joscraw/nscs.git HEAD as deploy@142.93.23.226
+  INFO [3a4837c0] Finished in 0.664 seconds with exit status 0 (successful).
+  INFO [611de46e] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared /srv/www/honor_society/releases as deploy@142.93.23.226
+  INFO [d488a9a3] Finished in 0.378 seconds with exit status 0 (successful).
+  INFO [80527d6e] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared/web/app/uploads as deploy@142.93.23.226
+  INFO [6bd84cd6] Finished in 0.395 seconds with exit status 0 (successful).
+  INFO [6085c55f] Running /usr/bin/env mkdir -p /srv/www/honor_society/shared as deploy@142.93.23.226
+  INFO [125090e4] Finished in 0.381 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /srv/www/honor_society/repo
+  INFO [11129952] Running /usr/bin/env git remote set-url origin https://github.com/joscraw/nscs.git as deploy@142.93.23.226
+  INFO [f899f966] Finished in 0.376 seconds with exit status 0 (successful).
+  INFO [d585f253] Running /usr/bin/env git remote update --prune as deploy@142.93.23.226
+  INFO [8a550256] Finished in 0.864 seconds with exit status 0 (successful).
+  INFO [3487cd66] Running /usr/bin/env mkdir -p /srv/www/honor_society/releases/20181102054650 as deploy@142.93.23.226
+  INFO [a4639dfe] Finished in 0.369 seconds with exit status 0 (successful).
+  INFO [dd3b06b7] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /srv/www/honor_society/releases/20181102054650 as deploy@142.93.23.226
+  INFO [ebc65107] Finished in 0.594 seconds with exit status 0 (successful).
+  INFO [baccb5f9] Running /usr/bin/env echo "7ee3f0a7252e9e7637ef5ea1946ebfa2311cf843" > REVISION as deploy@142.93.23.226
+  INFO [6551727a] Finished in 0.379 seconds with exit status 0 (successful).
+  INFO [1a109b78] Running /usr/bin/env mkdir -p /srv/www/honor_society/releases/20181102054650 as deploy@142.93.23.226
+  INFO [e61efd85] Finished in 0.366 seconds with exit status 0 (successful).
+  INFO [a4e37cd0] Running /usr/bin/env ln -s /srv/www/honor_society/shared/.env /srv/www/honor_society/releases/20181102054650/.env as deploy@142.93.23.226
+  INFO [578406cb] Finished in 0.363 seconds with exit status 0 (successful).
+  INFO [f9ccb5d3] Running /usr/bin/env mkdir -p /srv/www/honor_society/releases/20181102054650/web/app as deploy@142.93.23.226
+  INFO [cfe09f43] Finished in 0.379 seconds with exit status 0 (successful).
+  INFO [26af83f7] Running /usr/bin/env rm -rf /srv/www/honor_society/releases/20181102054650/web/app/uploads as deploy@142.93.23.226
+  INFO [4d48a7ff] Finished in 0.382 seconds with exit status 0 (successful).
+  INFO [5455095a] Running /usr/bin/env ln -s /srv/www/honor_society/shared/web/app/uploads /srv/www/honor_society/releases/20181102054650/web/app/uploads as deploy@142.93.23.226
+  INFO [e840cf55] Finished in 0.371 seconds with exit status 0 (successful).
+  INFO [c35c8b2a] Running /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as deploy@142.93.23.226
+  INFO [1f25489b] Finished in 4.785 seconds with exit status 0 (successful).
+  INFO [0111ad41] Running /usr/bin/env ln -s /srv/www/honor_society/releases/20181102054650 /srv/www/honor_society/releases/current as deploy@142.93.23.226
+  INFO [17cd6857] Finished in 0.398 seconds with exit status 0 (successful).
+  INFO [a5f632a6] Running /usr/bin/env mv /srv/www/honor_society/releases/current /srv/www/honor_society as deploy@142.93.23.226
+  INFO [8345ff14] Finished in 0.390 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on 142.93.23.226
+  INFO [d4e8b225] Running /usr/bin/env rm -rf /srv/www/honor_society/releases/20181013190337 as deploy@142.93.23.226
+  INFO [a935d3d2] Finished in 0.714 seconds with exit status 0 (successful).
+  INFO [37e32501] Running /usr/bin/env echo "Branch master (at 7ee3f0a7252e9e7637ef5ea1946ebfa2311cf843) deployed as release 20181102054650 by joshcrawmer" >> /srv/www/honor_society/revisions.log as deploy@142.93.23.226
+  INFO [382e3d1b] Finished in 0.394 seconds with exit status 0 (successful).
