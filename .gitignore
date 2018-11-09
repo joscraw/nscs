@@ -22,3 +22,5 @@ web/.htaccess
 #IDE
 .DS_Store
 .idea/*
+
+.vagrant
