@@ -198,7 +198,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/joscraw/crm-connector.git",
-                "reference": "d4f35c9d27a2fdf69bd40796e369fc4c68314df5"
+                "reference": "59c93146a28245892c30678ff47e69b77b68d910"
             },
             "require": {
                 "algolia/algoliasearch-client-php": "^1.27",
@@ -217,7 +217,7 @@
                 "proprietary"
             ],
             "description": "Plugin For CRM",
-            "time": "2018-11-07T03:08:01+00:00"
+            "time": "2018-11-09T17:10:40+00:00"
         },
         {
             "name": "crm/single-sign-on",
@@ -424,7 +424,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/joscraw/honor-society-common-theme.git",
-                "reference": "22af0349218b8da0a16b800614d87b55441bda4e"
+                "reference": "c02d6b6d0151a68c0442b8894318710a109da35d"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -434,7 +434,7 @@
                 "proprietary"
             ],
             "description": "Common Theme for the honor society",
-            "time": "2018-11-06T15:12:30+00:00"
+            "time": "2018-11-09T17:10:17+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
