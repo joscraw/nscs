@@ -424,7 +424,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/joscraw/honor-society-common-theme.git",
-                "reference": "b5d1cbae19ceb8def8aac22973a65ab72b4dc74e"
+                "reference": "8da7094da8787ddfeb5d5e782744fa4c7ae2bd3c"
             },
             "require": {
                 "composer/installers": "^1.0"
@@ -434,7 +434,7 @@
                 "proprietary"
             ],
             "description": "Common Theme for the honor society",
-            "time": "2018-11-25T17:01:29+00:00"
+            "time": "2018-11-25T17:31:11+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
